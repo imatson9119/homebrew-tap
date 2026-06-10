@@ -11,7 +11,7 @@ class Hctl < Formula
     libexec.install "hctl.pyz"
     (bin/"hctl").write <<~EOS
       #!/bin/bash
-      exec "#{Formula["python@3.13"].opt_bin}/python3" "#{libexec}/hctl.pyz" "$@"
+      exec "#{Formula["python@3.13"].opt_bin}/python3.13" "#{libexec}/hctl.pyz" "$@"
     EOS
   end
 
