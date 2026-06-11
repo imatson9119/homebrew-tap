@@ -1,8 +1,8 @@
 class Hctl < Formula
   desc "Polished OpenAPI-backed command-line interface for Harness APIs"
   homepage "https://github.com/imatson9119/harness-cli"
-  url "https://github.com/imatson9119/harness-cli/releases/download/v0.3.1/hctl.pyz"
-  sha256 "b84c63f4329cd0b19254c8690bb4bbe5478085d66ebe451804415bc13b3b17b3"
+  url "https://github.com/imatson9119/harness-cli/releases/download/v0.3.2/hctl.pyz"
+  sha256 "9469918dfe15fc041ae09b0225f05cc831396561ea67b397fc6fa4da5a401a8e"
   license "MIT"
 
   depends_on "python@3.13"
